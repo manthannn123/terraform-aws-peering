@@ -42,7 +42,7 @@ jobs:
 
   # 2) Terraform APPLY (Triggered By keyword)
   terraform-apply:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Terraform Apply (keyword Trigger)
     needs: terraform-plan
 
