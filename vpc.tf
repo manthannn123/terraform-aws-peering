@@ -21,3 +21,5 @@ resource "aws_vpc" "seoul_vpc" {
   }
 
 }
+
+
