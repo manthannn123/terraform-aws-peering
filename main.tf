@@ -1,0 +1,21 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~>5.0"
+
+    }
+  }
+}
+
+provider "aws" {
+  alias  = "mumbai"
+  region = "ap-south-1"
+
+}
+
+provider "aws" {
+  alias  = "seoul"
+  region = "ap-northeast-2"
+
+}
