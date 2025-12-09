@@ -54,7 +54,7 @@ resource "aws_subnet" "seoul_subnet3" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "seoul-subnet2"
+    Name = "seoul-subnet"
   }
 
 
